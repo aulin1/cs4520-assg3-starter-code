@@ -1,4 +1,4 @@
-package assignment3
+package com.cs4520.assignment3
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
