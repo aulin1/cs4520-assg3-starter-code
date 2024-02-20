@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_MVP"
             app:destination="@id/MVPFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_MVVM"
+            app:destination="@id/MVVMFragment" />
     </fragment>
 
     <fragment
