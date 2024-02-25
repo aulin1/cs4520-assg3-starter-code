@@ -12,6 +12,8 @@ class MVVMFragment : Fragment (R.layout.mvvm_fragment) {
     private var _binding: MvvmFragmentBinding? = null
     private val binding get() = _binding!!
 
+    private lateinit var viewModel : CalculatorViewModel
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -20,6 +22,8 @@ class MVVMFragment : Fragment (R.layout.mvvm_fragment) {
         _binding = MvvmFragmentBinding.inflate(inflater, container, false)
         return binding.root
     }
+
+
 
     override fun onDestroyView() {
         super.onDestroyView()

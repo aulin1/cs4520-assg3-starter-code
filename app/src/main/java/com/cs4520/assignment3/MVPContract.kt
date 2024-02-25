@@ -1,6 +1,8 @@
 package com.cs4520.assignment3
 
 interface MVPContract {
+
+    //According to TA at office hours, I don't need model for MVP
     interface View {
         fun ShowToast();
         fun ShowResult(result: Float);
